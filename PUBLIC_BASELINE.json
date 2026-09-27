@@ -1,0 +1,14 @@
+{
+  "baseline": "aria58",
+  "public_tag": "aria58-public",
+  "history": "new independent root commit; earlier local commits not imported",
+  "upstream": "https://github.com/HydeYYHH/NewPipeExtractor",
+  "source_release_commit": "49d64d30481a1f1caaf5dea7c45a014709c5eb2f",
+  "application_version": "v2.1.5-aria58-quickjs-stack-fix",
+  "application_version_code": 274,
+  "source_changes_for_publication": [
+    "include current sensitive-file ignore rules",
+    "remove machine-specific JDK path",
+    "add public build and provenance documentation"
+  ]
+}

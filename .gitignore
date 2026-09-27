@@ -1,0 +1,140 @@
+.gradle
+build/
+.idea
+local.properties
+out/
+*.iml
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# vscode / eclipse files
+*.classpath
+*.project
+*.settings
+**/bin
+**.vscode
+*.code-workspace
+
+# BEGIN local secrets and private diagnostics
+# Filename rules for untracked files; already tracked data/history is unaffected.
+# Do not put secrets in source code or in the example files allowed below.
+
+# Signing stores and private keys (including common backups)
+*.jks
+*.jks.*
+*.keystore
+*.keystore.*
+*.p12
+*.p12.*
+*.pfx
+*.pfx.*
+*.pem
+*.pem.*
+*.key
+*.key.*
+*.p8
+*.pk8
+*.ppk
+*.kdbx
+id_rsa
+id_rsa.*
+id_dsa
+id_dsa.*
+id_ecdsa
+id_ecdsa.*
+id_ed25519
+id_ed25519.*
+ssh_host_*_key
+.ssh/
+.gnupg/
+keystores/
+secrets/
+/private/
+
+# Local environment and signing configuration
+.env
+.env.*
+*.env
+keystore.properties
+keystore.properties.*
+signing.properties
+signing.properties.*
+local.properties
+*.local.properties
+.git-credentials
+.netrc
+_netrc
+.pypirc
+.npmrc
+.aws/
+.azure/
+**/.config/gcloud/
+credentials*.json
+credentials*.yaml
+credentials*.yml
+client_secret*.json
+service-account*.json
+service_account*.json
+secrets.json
+secrets.yaml
+secrets.yml
+token.json
+tokens.json
+auth.json
+google-services.json
+cookies.txt
+cookies*.txt
+cookies*.json
+cookies*.sqlite
+
+# Share templates only when they contain no actual secret values.
+!.env.example
+!.env.sample
+!.env.template
+!keystore.properties.example
+!signing.properties.example
+
+# Private logs and captures may contain accounts, URLs or device identifiers
+/diagnostics/
+/captures/
+/logcat/
+/bugreports/
+/tombstones/
+/backups/
+/.restore_*/
+*.log
+*.log.*
+*.har
+*.pcap
+*.pcapng
+*.hprof
+crash.txt
+exit-info.txt
+device-package-*.txt
+public-player-response.json
+public-formats.json
+guest-context.json
+challenge-input.json
+*signed*url*.txt
+
+# Local publishing helpers; public credential-free helpers need separate names
+/upload_*.py
+/publish_*.py
+/tools/upload_*.py
+/tools/publish_*.py
+
+# Build artifacts and compiler state
+*.apk
+*.aab
+.kotlin/
+# END local secrets and private diagnostics
